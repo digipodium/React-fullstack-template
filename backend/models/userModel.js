@@ -5,9 +5,7 @@ const schema = new mongoose.Schema({
     email: String,
     password: String,
     age: Number,
-    created: Date,
-    isadmin: Boolean,
-    avatar: String
+    created: Date
 })
 
 
